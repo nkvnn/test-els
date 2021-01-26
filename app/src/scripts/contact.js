@@ -7,7 +7,7 @@ buttonContact.addEventListener('click', () => {
 
 
     if (name != '' && email != '' && message != null) {
-        fetch(`https://api.telegram.org/bot1578082347:AAHc4kQZQ7DuKNskd-sDlTc_fGhCTnv5Ctk/SendMessage?chat_id=287343802_mode=html&text=Name: ${name}%0AEmail:  ${email}%0AMessage: ${message}`);
+        fetch(`https://api.telegram.org/bot1578082347:AAHc4kQZQ7DuKNskd-sDlTc_fGhCTnv5Ctk/SendMessage?chat_id=-521725315_mode=html&text=Name: ${name}%0AEmail:  ${email}%0AMessage: ${message}`);
       }
       else {
         alert('Заполните все !!');
