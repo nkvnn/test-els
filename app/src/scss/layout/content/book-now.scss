@@ -1,0 +1,294 @@
+.main_book-now {
+    background: #ffffff;
+    padding-top: 190px;
+    padding-bottom: 190px;
+}
+
+// .mb_cards_item{
+//     margin-bottom: 15px;
+// }
+
+
+
+
+.main-bn__title {
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: 'OpenSans-SemiBold';
+    text-align: center;
+}
+
+.book-now__title {
+    font-family: 'OpenSans-SemiBold';
+
+    font-size: 2.25rem;
+    color: #000000;
+    text-align: center;
+}
+
+.book-now__desc {
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: 'OpenSans-Regular';
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.checkbox_block__title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    & strong {
+        font-size: 1.5rem;
+        color: #000000;
+        font-family: 'OpenSans-SemiBold';
+        text-align: center;
+        line-height: 33px;
+    }
+
+    & span {
+        font-size: 14px;
+        color: #000000;
+        text-align: center;
+        font-family: 'OpenSans-Light';
+        line-height: 19px;
+    }
+}
+
+.checkbox_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 30px;
+    margin-bottom: 100px;
+
+    & .check {
+        margin: 20px 15px;
+
+        & input {
+            display: none;
+        }
+    }
+
+    .check input:checked~.check_label {
+        background: #CCAF40;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    & label {
+        font-size: 18px;
+        color: #000000;
+        font-family: 'OpenSans-SemiBold';
+        padding: 10px 40px;
+        border: 1px #CCAF40 solid;
+        border-radius: 5px;
+        cursor: pointer;
+
+    }
+}
+
+.check_item {
+    margin-top: 30px;
+    
+    & input {
+        display: none;
+    }
+
+    & input:checked~.check_item__label {
+        background: #ffffff;
+        color: #CCAF40; 
+        border: 1px #CCAF40 solid;
+        cursor: pointer; 
+    }
+
+    & .check_item__label {
+        font-family: 'OpenSans-SemiBold';
+        font-size: 18px;
+        color: #FFFFFF;
+        padding: 20px 30px;
+        background: #CCAF40;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+.mt_select{
+    margin-top: 50px;
+}
+
+.input {
+    color: #2e2e2e;
+    width: 328px;
+    height: 56px;
+    border: 2px #CCAF40 solid;
+    margin: 25px;
+    padding: 15px;
+    outline: none;
+}
+
+
+.input_block__date{
+    position: relative;
+    & label{
+        position: absolute;
+        top: 6px;
+        left: 40px;
+        padding: 10px;
+        background: white;
+        opacity: 0;
+    }
+}
+.input_block__date input:focus~label {
+    opacity: 1;
+}
+
+.input_block__time{
+    position: relative;
+    & label{
+        position: absolute;
+        top: 6px;
+        left: 40px;
+        padding: 10px;
+        background: white;
+        opacity: 0;
+    }
+}
+.input_block__time input:focus~label {
+    opacity: 1;
+}
+
+.input_block__address{
+    position: relative;
+    & label{
+        position: absolute;
+        top: 6px;
+        left: 40px;
+        padding: 10px;
+        background: white;
+        opacity: 0;
+    }
+}
+.input_block__address input:focus~label {
+    opacity: 1;
+}
+
+.input_block__name{
+    position: relative;
+    & label{
+        position: absolute;
+        top: 6px;
+        left: 40px;
+        padding: 10px;
+        background: white;
+        opacity: 0;
+    }
+}
+.input_block__name input:focus~label {
+    opacity: 1;
+}
+
+.input_block__number{
+    position: relative;
+    & label{
+        position: absolute;
+        top: 6px;
+        left: 40px;
+        padding: 10px;
+        background: white;
+        opacity: 0;
+    }
+}
+.input_block__number input:focus~label {
+    opacity: 1;
+}
+
+
+.input_block__email{
+    position: relative;
+    & label{
+        position: absolute;
+        top: 6px;
+        left: 40px;
+        padding: 10px 10px 0 10px;
+        background: white;
+        opacity: 0;
+    }
+}
+.input_block__email input:focus~label {
+    opacity: 1;
+}
+
+
+
+.cards__block {
+    margin: 100px 0;
+}
+
+.cards_item {
+    width: 273px;
+    height: 297px;
+    padding: 30px 70px;
+    margin: 15px 35px;
+    border: 1px #000000 solid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    & h5 {
+        font-size: 21px;
+        font-family: 'OpenSans-SemiBold';
+    }
+
+    & h4 {
+        font-family: 'OpenSans-SemiBold';
+        font-size: 30px;
+    }
+
+    & .mb_cards_item {
+        margin-bottom: 20px;
+
+    }
+
+    & ul {
+
+        & li {
+            font-family: 'OpenSans-Regular';
+            font-size: 16px;
+            color: #000000;
+        }
+    }
+
+    & button {
+        font-family: 'OpenSans-SemiBold';
+        font-size: 18px;
+        color: #FFFFFF;
+        padding: 20px 30px;
+        background: #CCAF40;
+        border-radius: 10px;
+        border: none;
+        margin-top: 15px;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+
+.bn_buttons {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    & button {
+        margin: 0 15px;
+    }
+}
+
+.contact_info__li{
+    align-items: center;
+    justify-content: center;
+    & img{
+        width: 24px;
+        height: 24px;
+    }
+}

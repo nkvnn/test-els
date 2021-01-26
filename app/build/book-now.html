@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="container">
+      <nav class="header-nav row"><a href=""><img src="images/nav_logo.webp" alt=""></a>
+        <ul class="header-nav__ul">
+          <li><a class="header-nav__link" href="index.html">Home</a></li>
+          <li><a class="active_link" href="#!">Book</a></li>
+          <li><a class="header-nav__link" href="contact.html">Contact</a></li>
+          <li><a class="header-nav__link" href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main_book-now">
+      <div class="container">
+        <h2 class="book-now__title">Welcome to the booking page!</h2>
+        <p class="book-now__desc">Kindly provide necessary informations by attending to the questions below.</p>
+        <div class="row">
+          <h3 class="checkbox_block__title"><strong>What you booking for?</strong><span>(you can select multiple options)</span></h3>
+          <div class="checkbox_block">
+            <div class="check">
+              <input id="eng" type="checkbox">
+              <label class="check_label" for="eng">Engagement</label>
+            </div>
+            <div class="check">
+              <input id="bus" type="checkbox">
+              <label class="check_label" for="bus">Business event</label>
+            </div>
+            <div class="check">
+              <input id="wed" type="checkbox">
+              <label class="check_label" for="wed">Wedding</label>
+            </div>
+            <div class="check">
+              <input id="birth" type="checkbox">
+              <label class="check_label" for="birth">Birthday</label>
+            </div>
+            <div class="check">
+              <input id="mater" type="checkbox">
+              <label class="check_label" for="mater">Maternity</label>
+            </div>
+            <div class="check">
+              <input id="grad" type="checkbox">
+              <label class="check_label" for="grad">Graduation</label>
+            </div>
+            <div class="check">
+              <input id="product" type="checkbox">
+              <label class="check_label" for="product">Product</label>
+            </div>
+            <div class="check">
+              <input id="honey" type="checkbox">
+              <label class="check_label" for="honey">Honeymoon</label>
+            </div>
+            <div class="check">
+              <input id="fash" type="checkbox">
+              <label class="check_label" for="fash">Fashion</label>
+            </div>
+            <div class="check">
+              <input id="anniv" type="checkbox">
+              <label class="check_label" for="anniv">Anniversary</label>
+            </div>
+            <div class="check">
+              <input id="food" type="checkbox">
+              <label class="check_label" for="food">Food</label>
+            </div>
+            <div class="check">
+              <input id="conf" type="checkbox">
+              <label class="check_label" for="conf">Conference</label>
+            </div>
+            <div class="check">
+              <input id="TaW" type="checkbox">
+              <label class="check_label" for="TaW">Team and workspace</label>
+            </div>
+            <div class="check">
+              <input id="PP" type="checkbox">
+              <label class="check_label" for="PP">Personal Potrait</label>
+            </div>
+            <div class="check">
+              <input id="family" type="checkbox">
+              <label class="check_label" for="family">Family</label>
+            </div>
+            <div class="check">
+              <input id="TSh" type="checkbox">
+              <label class="check_label" for="TSh">Travel shoot</label>
+            </div>
+            <div class="check">
+              <input id="baby" type="checkbox">
+              <label class="check_label" for="baby">Baby</label>
+            </div>
+            <div class="check">
+              <input id="others" type="checkbox">
+              <label class="check_label" for="others">Others</label>
+            </div>
+          </div>
+        </div>
+        <div class="input_block">
+          <h3 class="main-bn__title">When and where is the photoshoot?</h3>
+          <div class="row">
+            <div class="input_block__date">
+              <input class="input" id="date" type="text" placeholder="Select date" onfocus="(this.type='date')" onblur="(this.type='text')">
+              <label for="date">Date</label>
+            </div>
+            <div class="input_block__time">
+              <input class="input" id="time" type="text" placeholder="Select time" onfocus="(this.type='time')" onblur="(this.type='text')">
+              <label for="time">Time</label>
+            </div>
+            <div class="input_block__address">
+              <input class="input" id="address" type="text" placeholder="Enter the location address">
+              <label for="address"> Address</label>
+            </div>
+          </div>
+        </div>
+        <div class="cards__block">
+          <h3 class="main-bn__title"></h3>
+          <div class="row">
+            <div class="cards_item">
+              <h5>Basic</h5>
+              <h4><img src="images/icon_cards.webp" alt="">30,000</h4>
+              <ul class="mb_cards_item">
+                <li>1 hour shoot</li>
+                <li>Unlimited photos</li>
+                <li>Editing included</li>
+              </ul>
+              <div class="check_item mt_select">
+                <input id="Select1" type="radio" name="checkType" info="Basic">
+                <label class="check_item__label" for="Select1">Select</label>
+              </div>
+            </div>
+            <div class="cards_item">
+              <h5>Standart</h5>
+              <h4><img src="images/icon_cards.webp" alt="">50,000</h4>
+              <ul class="mb_cards_item">
+                <li>2 hours shoot</li>
+                <li>Unlimited photos</li>
+                <li>Editing included</li>
+              </ul>
+              <div class="check_item mt_select">
+                <input id="Select2" type="radio" name="checkType" info="Standart">
+                <label class="check_item__label" for="Select2">Select</label>
+              </div>
+            </div>
+            <div class="cards_item">
+              <h5>Premium</h5>
+              <h4><img src="images/icon_cards.webp" alt="">80,000</h4>
+              <ul>
+                <li>3 hours shoot</li>
+                <li>Unlimited photos</li>
+                <li>Editing included</li>
+                <li>Free photobook</li>
+              </ul>
+              <div class="check_item">
+                <input id="Select3" type="radio" name="checkType" info="Premium">
+                <label class="check_item__label" for="Select3">Select</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input_block">
+          <h3 class="main-bn__title">When and where is the photoshoot?</h3>
+          <div class="row">
+            <div class="input_block__name">
+              <input class="input" id="name" type="text" placeholder="Enter full name">
+              <label for="name">Name</label>
+            </div>
+            <div class="input_block__number">
+              <input class="input" id="number" type="number" placeholder="Enter phone number">
+              <label for="number">Phone number</label>
+            </div>
+            <div class="input_block__email">
+              <input class="input" id="email" type="email" placeholder="Enter email address">
+              <label for="email">Email</label>
+            </div>
+          </div>
+        </div>
+        <div class="bn_buttons row">
+          <button class="button button_bookNow">Book now</button>
+          <button class="button">Save and book later</button>
+        </div>
+      </div>
+    </main>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

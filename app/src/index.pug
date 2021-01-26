@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width,      initial-scale=1.0')
+        link(rel="stylesheet", href="styles/main.min.css")
+        title Pug
+    body
+        header.mySlides.fade.header
+            .h-100.flex-column.d-flex.container
+                nav.header-nav.row
+                    a(href='')
+                        img(src='images/nav_logo.webp', alt='')
+                    ul.header-nav__ul
+                        li
+                            a.active_link(href='') Home
+                        li
+                            a.header-nav__link(href='book-now.html') Book
+                        li
+                            a.header-nav__link(href='contact.html')         Contact
+                        li
+                            a.header-nav__link(href='about.html') About
+                .header-content.row
+                    .header-content__icons
+                        a(href='')
+                            img(src='images/be-logo.webp', alt='')
+                        a(href='')
+                            img(src='images/fb-logo.webp', alt='')
+                        a(href='')
+                            img(src='images/inst-logo.webp', alt='')
+                    .header-content__desc
+                        p We take photos as a return ticket to a        moment     otherwise gone
+                    .header-content__button
+                        a.button(href='book-now.html') Book now
+                a.view_link(href='')
+                    strong View more
+                    span &#x2C5;
+        //- main start ----
+        include views/components/index_main.pug
+        .dots_slider
+                    <a class="prev" href="#" onclick="plusSlides(-1)">&#708</a>
+                    span.dot(class='active' onclick='currentSlide(1)')
+                    span.dot(onclick='currentSlide(2)')
+                    span.dot(onclick='currentSlide(3)')
+                    span.dot(onclick='currentSlide(4)')
+                    span.dot(onclick='currentSlide(5)')
+                    span.dot(onclick='currentSlide(6)')
+                    span.dot(onclick='currentSlide(7)')
+                    span.dot(onclick='currentSlide(8)')
+                    span.dot(onclick='currentSlide(9)')
+                    span.dot(onclick='currentSlide(10)')
+                    <a class="next" href="#" onclick="plusSlides(1)">&#709</a>
+        //- main end ----
+
+        //- start footer ----
+
+        include views/template/footer.pug
+
+
+        script(src='scripts/slide.js')

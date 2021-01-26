@@ -1,0 +1,49 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width,  initial-scale=1.0')
+    link(rel='stylesheet', href='styles/main.min.css')
+    title Document
+  body
+    header.container
+      nav.header-nav.row
+        a(href='')
+          img(src='images/nav_logo.webp', alt='')
+        ul.header-nav__ul
+          li
+            a.header-nav__link(href='index.html') Home
+          li
+            a.header-nav__link(href='book-now.html') Book
+          li
+            a.header-nav__link(href='contact.html') Contact
+          li
+            a.active_link(href='#!') About
+    main.container
+      .row.main-about
+        .main-about__logo
+          img.main-about__logo__img(src='images/main_logo.webp',    alt='')
+          .main-contact__icons
+            a(href='')
+              img(src='images/be-logo.webp', alt='')
+            a(href='')
+              img(src='images/fb-logo.webp', alt='')
+            a(href='')
+              img(src='images/inst-logo.webp', alt='')
+        .content_about
+          h1.content_about__title About
+          p.content_about__desc
+            | Lorem ipsum dolor sit amet, consectetur
+            | adipiscing elit. Non nunc eleifend id pulvinar.
+            | Id pretium feugiat dignissim quisque.
+            | Duis purus tellus duis nunc rhoncus, ultrices
+            | id in ipsum. Eget sit tempor habitant id turpis
+            | imperdiet ut.
+          p.content_about__desc
+            | If you are looking to make enquiries,
+            | kindly 
+            a.content_about__span-link(href='contact.html') contact
+            |  us or make your booking 
+            a.content_about__span-link(href='book-now.html') here
+            | .
+    

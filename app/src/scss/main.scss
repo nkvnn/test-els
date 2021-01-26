@@ -1,0 +1,13 @@
+@import 'layout/grid';
+@import 'includes/common.scss';
+@import 'includes/root.scss';
+@import 'includes/media.scss';
+@import 'libs/all.min.scss';
+
+
+@import 'layout/content/_index_header.scss';
+@import 'layout/content/_index_footer.scss';
+@import 'layout/content/_index_main.scss';
+@import 'layout/content/contact.scss';
+@import 'layout/content/about.scss';
+@import 'layout/content/book-now.scss';

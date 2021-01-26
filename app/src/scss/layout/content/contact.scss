@@ -1,0 +1,92 @@
+.main-contact {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  padding-top: 150px;
+}
+
+.main-contact__icons{
+  margin-top: 70px;
+  & a{
+    margin-left: 55px;
+  }
+}
+
+.contact-form {
+  width: 570px;
+
+  &__submit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+  }
+
+  &__submit p {
+    font-size: 24px;
+    font-family: 'OpenSans-Light';
+    color: #FFFFFF;
+    line-height: 33px;
+    width: 337px;
+  }
+
+  &__submit button {
+    font-family: 'OpenSans-SemiBold';
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 20px 30px;
+    background: #ccaf40;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+
+
+  &__label {
+    margin-top: 60px;
+
+    & label {
+      color: #ffffff;
+      font-size: 25px;
+      font-family: 'OpenSans-SemiBold';
+      // margin-top: 50px;
+    }
+  }
+}
+
+.contact_input {
+  color: #FFFFFF;
+  width: 570px;
+  height: 78px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+  background: #000000;
+  box-sizing: border-box;
+}
+
+textarea.contact_input {
+  padding-top: 30px;
+  height: 352px;
+  resize: none;
+}
+
+
+.contact-form__title {
+  font-size: 4rem;
+  font-family: 'OpenSans-SemiBold';
+  color: #FFFFFF;
+}
+
+.contact_info {
+  margin-top: 50px;
+  
+
+  &__li {
+    font-family: 'OpenSans-SemiBold';
+    font-size: 27px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    text-align: end;
+  }
+
+}

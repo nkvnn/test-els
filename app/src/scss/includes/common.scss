@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+// .container{
+//     @include container();
+//   }
+
+.test{
+  position: relative;
+}
+.container {
+  max-width: 1400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  @include row();
+}
+
+body {
+  background: #000000;
+
+}
+
+.main_button {
+  font-family: 'OpenSans-SemiBold';
+  font-size: 1.875rem;
+  color: #FFFFFF;
+  padding: 20px 30px;
+  background: #CCAF40;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+.button {
+  color: #CCAF40;
+  background: transparent;
+  font-size: 1.875rem;
+  font-family: 'OpenSans-SemiBold';
+  padding: 18px 45px;
+  border: 2px solid #CCAF40;
+  box-sizing: border-box;
+  border-radius: 56px;
+  transition: 600ms;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background: #CCAF40;
+  color: #ffffff;
+  // box-shadow: ;
+}
+
+.active_link {
+  font-family: 'OpenSans-ExtraBold';
+  color: #CCAF40;
+  font-size: 1.125rem;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #CCAF40;
+  }
+}
+
+.main-title {
+  font-size: 4.5rem;
+  font-family: 'OpenSans-SemiBold';
+  color: #FFFFFF;
+  position: relative;
+}
+
+.main-desc {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-family: 'OpenSans-SemiBold';
+  width: 432px;
+}
+
+.main_border {
+  height: 100%;
+  border: 2px #CCAF40 solid;
+}
+
+
+
+
+
+
+
+
+// slide *******
+
+
+.fade {
+  /* -webkit-animation-name: fade; */
+  /* -webkit-animation-duration:1.5s; */
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.active,
+.dot:hover {
+  background: #717171;
+}

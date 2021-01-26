@@ -1,0 +1,12 @@
+{
+  "comments": false, //отключает коментарии в коде
+  "presets": [
+    "@babel/preset-env",
+    ["minify", {
+      "builtIns": false,
+      "evaluate": false,
+      "mangle": false
+    }]
+  ],
+  "ignore": ["./app/src/scripts/libs"]
+}

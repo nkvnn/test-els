@@ -1,0 +1,23 @@
+.main-about {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+
+
+.content_about__title{
+    font-size: 4rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.content_about__desc {
+    width: 767px;
+    font-family: 'OpenSans-Regular';
+    font-size: 2.25rem;
+    color: #ffffff;
+    margin-bottom: 55px;
+}
+.content_about__span-link{
+    color: #CCAF40;
+}

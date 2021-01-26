@@ -1,0 +1,1574 @@
+@media(max-width: 950px) {
+  .right_border_left {
+    border-left: 3px #ccaf40 solid;
+    border-right: 3px #ccaf40 solid;
+    padding: 0 70px 0 90px;
+    margin: 0px 40px 0 40px;
+  }
+}
+
+
+
+
+
+
+@media(max-width: 768px) {
+  .header-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-nav__ul {
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & .active_link::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: transparent;
+    }
+  }
+
+  // index ======
+
+  .header-content__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px;
+    }
+  }
+
+  .header-content__desc {
+    margin: 0 auto;
+
+    & p {
+      font-size: 30px;
+      width: 438px;
+      text-align: center;
+    }
+  }
+
+  .header-content__button {
+    margin: 0 auto;
+  }
+
+  .footer-block {
+    width: 300px;
+    text-align: center;
+
+    &__desc {
+      text-align: center;
+      width: 200px;
+      margin: 0 auto;
+    }
+  }
+
+  .right_border_left {
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    margin: 20px;
+    padding: 20px 0;
+    border-top: 3px #ccaf40 solid;
+    border-bottom: 3px #ccaf40 solid;
+  }
+
+
+  .input {
+    color: #2e2e2e;
+    width: 600px;
+    height: 70px;
+    border: 2px #ccaf40 solid;
+    margin: 25px;
+    padding: 15px;
+    outline: 0;
+}
+
+
+  .main-contact__logo,
+  .main-about__logo__img {
+    display: none;
+  }
+
+  .main-contact,
+  .main-about {
+    text-align: center;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form{
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .content_about {
+    margin: 0 auto;
+  }
+
+  .content_about__desc {
+    width: 480px;
+    font-size: 1.5rem;
+  }
+
+  .main-contact__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px 20px;
+    }
+  }
+
+}
+
+
+
+@media(max-width: 540px) {
+  .header-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-nav__ul {
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & .active_link::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: transparent;
+    }
+  }
+
+  // index ======
+
+  .header-content__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px;
+    }
+  }
+
+  .header-content__desc {
+    margin: 0 auto;
+
+    & p {
+      font-size: 30px;
+      width: 438px;
+      text-align: center;
+    }
+  }
+
+  .header-content__button {
+    margin: 0 auto;
+  }
+
+  .footer-block {
+    width: 300px;
+    text-align: center;
+
+    &__desc {
+      text-align: center;
+      width: 200px;
+      margin: 0 auto;
+    }
+  }
+
+  .right_border_left {
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    margin: 20px;
+    padding: 20px 0;
+    border-top: 3px #ccaf40 solid;
+    border-bottom: 3px #ccaf40 solid;
+  }
+
+
+  .input {
+    color: #2e2e2e;
+    width: 400px;
+    height: 70px;
+    border: 2px #ccaf40 solid;
+    margin: 25px;
+    padding: 15px;
+    outline: 0;
+}
+
+
+  .main-contact__logo,
+  .main-about__logo__img {
+    display: none;
+  }
+
+  .main-contact,
+  .main-about {
+    text-align: center;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form{
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .content_about {
+    margin: 0 auto;
+  }
+
+  .content_about__desc {
+    width: 480px;
+    font-size: 1.5rem;
+  }
+
+  .main-contact__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px 20px;
+    }
+  }
+
+}
+
+
+@media(max-width: 500px) {
+  .header-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-nav__ul {
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & .active_link::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: transparent;
+    }
+  }
+
+  // index ======
+
+  .header-content__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px;
+    }
+  }
+
+  .header-content__desc {
+    margin: 0 auto;
+
+    & p {
+      font-size: 30px;
+      width: 438px;
+      text-align: center;
+    }
+  }
+
+  .header-content__button {
+    margin: 0 auto;
+  }
+
+  .footer-block {
+    width: 300px;
+    text-align: center;
+
+    &__desc {
+      text-align: center;
+      width: 200px;
+      margin: 0 auto;
+    }
+  }
+
+  .right_border_left {
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    margin: 20px;
+    padding: 20px 0;
+    border-top: 3px #ccaf40 solid;
+    border-bottom: 3px #ccaf40 solid;
+  }
+
+
+  .input {
+    color: #2e2e2e;
+    width: 400px;
+    height: 70px;
+    border: 2px #ccaf40 solid;
+    margin: 25px;
+    padding: 15px;
+    outline: 0;
+}
+
+
+  .main-contact__logo,
+  .main-about__logo__img {
+    display: none;
+  }
+
+  .main-contact,
+  .main-about {
+    text-align: center;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form{
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .content_about {
+    margin: 0 auto;
+  }
+
+  .content_about__desc {
+    width: 480px;
+    font-size: 1.5rem;
+  }
+
+  .main-contact__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px 20px;
+    }
+  }
+
+}
+
+
+
+@media(max-width: 576px) {
+  .header-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-nav__ul {
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & .active_link::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: transparent;
+    }
+  }
+
+  // index ======
+
+  .header-content__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px;
+    }
+  }
+
+  .header-content__desc {
+    margin: 0 auto;
+
+    & p {
+      font-size: 30px;
+      width: 438px;
+      text-align: center;
+    }
+  }
+
+  .header-content__button {
+    margin: 0 auto;
+  }
+
+  .footer-block {
+    width: 300px;
+    text-align: center;
+
+    &__desc {
+      text-align: center;
+      width: 200px;
+      margin: 0 auto;
+    }
+  }
+
+  .right_border_left {
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    margin: 20px;
+    padding: 20px 0;
+    border-top: 3px #ccaf40 solid;
+    border-bottom: 3px #ccaf40 solid;
+  }
+
+
+  .main-contact__logo,
+  .main-about__logo__img {
+    display: none;
+  }
+
+  .main-contact,
+  .main-about {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .content_about {
+    margin: 0 auto;
+  }
+
+  .content_about__desc {
+    width: 480px;
+    font-size: 1.5rem;
+  }
+
+  .main-contact__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px 20px;
+    }
+  }
+}
+
+@media(max-width: 555px) {
+  .header-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-nav__ul {
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & .active_link::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: transparent;
+    }
+  }
+
+  // index ======
+
+  .header-content__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px;
+    }
+  }
+
+  .header-content__desc {
+    margin: 0 auto;
+
+    & p {
+      font-size: 30px;
+      width: 438px;
+      text-align: center;
+    }
+  }
+
+  .header-content__button {
+    margin: 0 auto;
+  }
+
+  .footer-block {
+    width: 300px;
+    text-align: center;
+
+    &__desc {
+      width: 200px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  .right_border_left {
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    margin: 50px;
+    padding: 50px 0;
+    border-top: 3px #ccaf40 solid;
+    border-bottom: 3px #ccaf40 solid;
+  }
+
+
+  .main-contact__logo,
+  .main-about__logo__img {
+    display: none;
+  }
+
+  .main-contact,
+  .main-about {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .content_about {
+    margin: 0 auto;
+  }
+
+  .content_about__desc {
+    width: 480px;
+    font-size: 1.5rem;
+  }
+
+  .main-contact__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px 20px;
+    }
+  }
+}
+
+
+
+@media(max-width: 457px) {
+  .header-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-nav__ul {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & .active_link::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: transparent;
+    }
+  }
+
+  .dots_slider {
+    top: 20%;
+  }
+
+  // index ************
+
+  .header-content {
+    padding-right: 0;
+  }
+
+  .header-content__desc p {
+    font-size: 30px;
+    width: 360px;
+    text-align: center;
+  }
+
+  .view_link,
+  .back_link {
+    display: none;
+  }
+
+  .main-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .main-desc {
+    font-size: 16px;
+    text-align: center;
+    width: 270px;
+  }
+
+  .border1-top {
+    border: none;
+    width: 100%;
+  }
+
+  .main1-content,
+  .main2-content,
+  .main3-content,
+  .main4-content,
+  .main5-content,
+  .main6-content,
+  .main7-content,
+  .main8-content,
+  .main9-content {
+    margin: 35% auto;
+    border: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .border2-top::before,
+  .border4-top::before,
+  .border6-top::before,
+  .border8-top::before {
+    display: none;
+  }
+
+  .main_button {
+    font-size: 1rem;
+    padding: 15px 17px;
+    text-align: center;
+  }
+
+
+  // **** book-now *****\
+
+
+
+  .main_book-now {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .book-now__title {
+    font-family: OpenSans-SemiBold;
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+  }
+
+  .book-now__desc {
+    font-size: 1.3rem;
+    color: #000;
+    font-family: OpenSans-Regular;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .checkbox_block .check {
+    margin: 10px 5px;
+
+    .check_label {
+      font-size: 14px;
+      color: #000;
+      font-family: OpenSans-SemiBold;
+      padding: 5px 10px;
+      border: 1px #ccaf40 solid;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .input {
+    color: #2e2e2e;
+    width: 270px;
+    height: 56px;
+    border: 2px #ccaf40 solid;
+    margin: 25px;
+    padding: 15px;
+    outline: 0;
+  }
+
+  .cards_item {
+    width: 273px;
+    height: 297px;
+    padding: 25px 37px;
+    margin: 15px 35px;
+    border: 1px #000 solid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .bn_buttons button {
+    margin: 10px 0;
+  }
+
+  .button {
+    color: #ccaf40;
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    border: 2px solid #ccaf40;
+    box-sizing: border-box;
+    border-radius: 56px;
+    cursor: pointer;
+  }
+
+  .checkbox_block {
+    margin-bottom: 50px;
+    padding: 0;
+  }
+
+  // ************ book-now end
+
+
+  // ***********about ***
+
+  .main-about {
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    &__logo {
+      &__img {
+        display: none;
+      }
+    }
+
+  }
+
+  .main-contact__icons {
+    margin-top: 15px;
+
+    & a {
+      margin: 0 15px;
+    }
+
+  }
+
+  .content_about__title {
+    font-size: 3rem;
+    color: #fff;
+    /* margin-bottom: 30px; */
+    margin: 15px 0;
+  }
+
+  .content_about__desc {
+    width: 310px;
+    font-family: OpenSans-Regular;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 55px;
+  }
+
+
+
+  // contact*************
+
+
+  .main-contact__logo {
+    display: none;
+  }
+
+  .contact_input {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+
+  .main-contact,
+  .main-about {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .contact-form__submit p {
+    width: 270px;
+  }
+
+  .contact_info__li {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .main-contact__icons {
+    margin: 0 auto;
+
+    & a {
+      margin: 20px 20px;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 411px) {
+  .header-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-nav__ul {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & .active_link::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: transparent;
+    }
+  }
+
+
+
+
+
+  // **** book-now *****\
+
+
+
+  .main_book-now {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .book-now__title {
+    font-family: OpenSans-SemiBold;
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+  }
+
+  .book-now__desc {
+    font-size: 1.3rem;
+    color: #000;
+    font-family: OpenSans-Regular;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .checkbox_block .check {
+    margin: 10px 5px;
+
+    .check_label {
+      font-size: 14px;
+      color: #000;
+      font-family: OpenSans-SemiBold;
+      padding: 5px 10px;
+      border: 1px #ccaf40 solid;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .input {
+    color: #2e2e2e;
+    width: 270px;
+    height: 56px;
+    border: 2px #ccaf40 solid;
+    margin: 25px;
+    padding: 15px;
+    outline: 0;
+  }
+
+  .cards_item {
+    width: 273px;
+    height: 297px;
+    padding: 25px 37px;
+    margin: 15px 35px;
+    border: 1px #000 solid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .bn_buttons button {
+    margin: 10px 0;
+  }
+
+  .button {
+    color: #ccaf40;
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    border: 2px solid #ccaf40;
+    box-sizing: border-box;
+    border-radius: 56px;
+    cursor: pointer;
+  }
+
+  .checkbox_block {
+    margin-bottom: 50px;
+    padding: 0;
+  }
+
+  // ************ book-now end
+
+
+  // ***********about ***
+
+  .main-about {
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    &__logo {
+      &__img {
+        display: none;
+      }
+    }
+
+  }
+
+  .main-contact__icons {
+    margin-top: 15px;
+
+    & a {
+      margin: 0 15px;
+    }
+
+  }
+
+  .content_about__title {
+    font-size: 3rem;
+    color: #fff;
+    /* margin-bottom: 30px; */
+    margin: 15px 0;
+  }
+
+  .content_about__desc {
+    width: 310px;
+    font-family: OpenSans-Regular;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 55px;
+  }
+
+}
+
+@media(max-width: 414px) {
+  .header-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-nav__ul {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & .active_link::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: transparent;
+    }
+  }
+  .border1-top {
+    border: none;
+  }
+
+
+
+
+  // **** book-now *****\
+
+
+
+  .main_book-now {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .book-now__title {
+    font-family: OpenSans-SemiBold;
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+  }
+
+  .book-now__desc {
+    font-size: 1.3rem;
+    color: #000;
+    font-family: OpenSans-Regular;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .checkbox_block .check {
+    margin: 10px 5px;
+
+    .check_label {
+      font-size: 14px;
+      color: #000;
+      font-family: OpenSans-SemiBold;
+      padding: 5px 10px;
+      border: 1px #ccaf40 solid;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .input {
+    color: #2e2e2e;
+    width: 270px;
+    height: 56px;
+    border: 2px #ccaf40 solid;
+    margin: 25px;
+    padding: 15px;
+    outline: 0;
+  }
+
+  .cards_item {
+    width: 273px;
+    height: 297px;
+    padding: 25px 37px;
+    margin: 15px 35px;
+    border: 1px #000 solid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .bn_buttons button {
+    margin: 10px 0;
+  }
+
+  .button {
+    color: #ccaf40;
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    border: 2px solid #ccaf40;
+    box-sizing: border-box;
+    border-radius: 56px;
+    cursor: pointer;
+  }
+
+  .checkbox_block {
+    margin-bottom: 50px;
+    padding: 0;
+  }
+
+  // ************ book-now end
+
+
+  // ***********about ***
+
+  .main-about {
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    &__logo {
+      &__img {
+        display: none;
+      }
+    }
+
+  }
+
+  .main-contact__icons {
+    margin-top: 15px;
+
+    & a {
+      margin: 0 15px;
+    }
+
+  }
+
+  .content_about__title {
+    font-size: 3rem;
+    color: #fff;
+    /* margin-bottom: 30px; */
+    margin: 15px 0;
+  }
+
+  .content_about__desc {
+    width: 310px;
+    font-family: OpenSans-Regular;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 55px;
+  }
+
+  
+  .contact-form {
+    width: 370px;
+  }
+  .contact-form__label {
+    & label{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .contact_input {
+    width: 300px;
+    margin: 0 auto;
+}
+}
+@media(max-width: 375px) {
+  .header-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-nav__ul {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & .active_link::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: transparent;
+    }
+  }
+
+  .border1-top {
+    border: none;
+  }
+
+
+
+  // **** book-now *****\
+
+
+
+  .main_book-now {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .book-now__title {
+    font-family: OpenSans-SemiBold;
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+  }
+
+  .book-now__desc {
+    font-size: 1.3rem;
+    color: #000;
+    font-family: OpenSans-Regular;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .checkbox_block .check {
+    margin: 10px 5px;
+
+    .check_label {
+      font-size: 14px;
+      color: #000;
+      font-family: OpenSans-SemiBold;
+      padding: 5px 10px;
+      border: 1px #ccaf40 solid;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .input {
+    color: #2e2e2e;
+    width: 270px;
+    height: 56px;
+    border: 2px #ccaf40 solid;
+    margin: 25px;
+    padding: 15px;
+    outline: 0;
+  }
+
+  .cards_item {
+    width: 273px;
+    height: 297px;
+    padding: 25px 37px;
+    margin: 15px 35px;
+    border: 1px #000 solid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .bn_buttons button {
+    margin: 10px 0;
+  }
+
+  .button {
+    color: #ccaf40;
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    border: 2px solid #ccaf40;
+    box-sizing: border-box;
+    border-radius: 56px;
+    cursor: pointer;
+  }
+
+  .checkbox_block {
+    margin-bottom: 50px;
+    padding: 0;
+  }
+
+  // ************ book-now end
+
+
+  // ***********about ***
+
+  .main-about {
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    &__logo {
+      &__img {
+        display: none;
+      }
+    }
+
+  }
+
+  .main-contact__icons {
+    margin-top: 15px;
+
+    & a {
+      margin: 0 15px;
+    }
+
+  }
+
+  .content_about__title {
+    font-size: 3rem;
+    color: #fff;
+    /* margin-bottom: 30px; */
+    margin: 15px 0;
+  }
+
+  .content_about__desc {
+    width: 310px;
+    font-family: OpenSans-Regular;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 55px;
+  }
+
+  
+  .contact-form {
+    width: 370px;
+  }
+  .contact-form__label {
+    & label{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .contact_input {
+    width: 300px;
+    margin: 0 auto;
+}
+}
+
+@media(max-width: 320px) {
+  .header-content__desc p {
+    font-size: 1.5rem;
+    color: #fff;
+    width: 270px;
+    text-align: center;
+  }
+
+  .header-content__icons {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .header-content__button {
+    margin: 0 auto;
+  }
+
+  .header-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-nav__ul {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & .active_link::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: transparent;
+    }
+  }
+
+
+  // index__main
+
+  .main-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .main-desc {
+    font-size: 1.2rem;
+    width: 170px;
+    text-align: center;
+  }
+
+  .border1-top {
+    border: none;
+  }
+
+  // **** book-now *****\
+
+
+
+  .main_book-now {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .book-now__title {
+    font-family: OpenSans-SemiBold;
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+  }
+
+  .book-now__desc {
+    font-size: 1.3rem;
+    color: #000;
+    font-family: OpenSans-Regular;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .checkbox_block .check {
+    margin: 10px 5px;
+
+    .check_label {
+      font-size: 14px;
+      color: #000;
+      font-family: OpenSans-SemiBold;
+      padding: 5px 10px;
+      border: 1px #ccaf40 solid;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .input {
+    color: #2e2e2e;
+    width: 270px;
+    height: 56px;
+    border: 2px #ccaf40 solid;
+    margin: 25px;
+    padding: 15px;
+    outline: 0;
+  }
+
+  .cards_item {
+    width: 273px;
+    height: 297px;
+    padding: 25px 37px;
+    margin: 15px 35px;
+    border: 1px #000 solid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .bn_buttons button {
+    margin: 10px 0;
+  }
+
+  .button {
+    color: #ccaf40;
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    border: 2px solid #ccaf40;
+    box-sizing: border-box;
+    border-radius: 56px;
+    cursor: pointer;
+  }
+
+  .checkbox_block {
+    margin-bottom: 50px;
+    padding: 0;
+  }
+
+  // ************ book-now end
+
+
+  // ***********about ***
+
+  .main-about {
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    &__logo {
+      &__img {
+        display: none;
+      }
+    }
+
+  }
+
+  .main-contact__icons {
+    margin-top: 15px;
+
+    & a {
+      margin: 0 15px;
+    }
+
+  }
+
+  .content_about__title {
+    font-size: 3rem;
+    color: #fff;
+    /* margin-bottom: 30px; */
+    margin: 15px 0;
+  }
+
+  .content_about__desc {
+    width: 310px;
+    font-family: OpenSans-Regular;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 55px;
+  }
+
+}

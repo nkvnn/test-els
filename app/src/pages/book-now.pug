@@ -1,0 +1,185 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='styles/main.min.css')
+    title Document
+  body
+    header.container
+      nav.header-nav.row
+        a(href='')
+          img(src='images/nav_logo.webp', alt='')
+        ul.header-nav__ul
+          li
+            a.header-nav__link(href='index.html') Home
+          li
+            a.active_link(href='#!') Book
+          li
+            a.header-nav__link(href='contact.html') Contact
+          li
+            a.header-nav__link(href='about.html') About
+    main.main_book-now
+      .container
+        h2.book-now__title Welcome to the booking page!
+        p.book-now__desc Kindly provide necessary informations by attending to the questions below.
+
+
+        .row
+          h3.checkbox_block__title
+            strong What you booking for?
+            span (you can select multiple options)
+
+          .checkbox_block
+            .check
+              input#eng(type='checkbox')
+              label.check_label(for='eng') Engagement
+
+            .check
+              input#bus(type='checkbox')
+              label.check_label(for='bus') Business event
+
+            .check
+              input#wed(type='checkbox')
+              label.check_label(for='wed') Wedding
+
+            .check
+              input#birth(type='checkbox')
+              label.check_label(for='birth') Birthday
+
+            .check
+              input#mater(type='checkbox')
+              label.check_label(for='mater') Maternity
+
+            .check
+              input#grad(type='checkbox')
+              label.check_label(for='grad') Graduation
+
+            .check
+              input#product(type='checkbox')
+              label.check_label(for='product') Product
+
+            .check
+              input#honey(type='checkbox')
+              label.check_label(for='honey') Honeymoon
+
+            .check
+              input#fash(type='checkbox')
+              label.check_label(for='fash') Fashion
+
+            .check
+              input#anniv(type='checkbox')
+              label.check_label(for='anniv') Anniversary
+
+            .check
+              input#food(type='checkbox')
+              label.check_label(for='food') Food
+
+            .check
+              input#conf(type='checkbox')
+              label.check_label(for='conf') Conference
+
+            .check
+              input#TaW(type='checkbox')
+              label.check_label(for='TaW') Team and workspace
+
+            .check
+              input#PP(type='checkbox')
+              label.check_label(for='PP') Personal Potrait
+
+            .check
+              input#family(type='checkbox')
+              label.check_label(for='family') Family
+
+            .check
+              input#TSh(type='checkbox')
+              label.check_label(for='TSh') Travel shoot
+
+            .check
+              input#baby(type='checkbox')
+              label.check_label(for='baby') Baby
+
+            .check
+              input#others(type='checkbox')
+              label.check_label(for='others') Others
+
+
+        .input_block
+          h3.main-bn__title When and where is the photoshoot?
+          .row
+            .input_block__date
+              input.input(id='date' type='text', placeholder='Select date' onfocus="(this.type='date')" onblur="(this.type='text')")
+              label(for="date") Date
+
+            .input_block__time
+              input.input(id='time' type='text', placeholder='Select time' onfocus="(this.type='time')" onblur="(this.type='text')")
+              label(for="time") Time
+
+            .input_block__address
+              input.input(id='address' type='text', placeholder='Enter the location address')
+              label(for="address")  Address
+        .cards__block
+          h3.main-bn__title
+          .row
+            .cards_item
+              h5 Basic
+              h4
+                img(src='images/icon_cards.webp', alt='')
+                | 30,000
+              ul.mb_cards_item
+                li 1 hour shoot
+                li Unlimited photos
+                li Editing included
+              .check_item.mt_select
+                input#Select1(type='radio' name="checkType" info="Basic")
+                label.check_item__label(for='Select1') Select
+
+            .cards_item
+              h5 Standart
+              h4
+                img(src='images/icon_cards.webp', alt='')
+                | 50,000
+              ul.mb_cards_item
+                li 2 hours shoot
+                li Unlimited photos
+                li Editing included
+              .check_item.mt_select
+                input#Select2(type='radio' name="checkType" info="Standart")
+                label.check_item__label(for='Select2') Select
+
+            .cards_item
+              h5 Premium
+              h4
+                img(src='images/icon_cards.webp', alt='')
+                | 80,000
+              ul
+                li 3 hours shoot
+                li Unlimited photos
+                li Editing included
+                li Free photobook
+              .check_item
+                input#Select3(type='radio' name="checkType" info="Premium")
+                label.check_item__label(for='Select3') Select
+
+
+        .input_block
+          h3.main-bn__title When and where is the photoshoot?
+          .row
+
+            .input_block__name
+              input.input(id='name' type='text', placeholder='Enter full name')
+              label(for="name") Name
+
+            .input_block__number
+              input.input(id="number" type='number', placeholder='Enter phone number')
+              label(for="number") Phone number
+
+            .input_block__email
+              input.input(id='email' type='email', placeholder='Enter email address')
+              label(for="email") Email
+
+
+        .bn_buttons.row
+          button.button.button_bookNow Book now
+          button.button Save and book later
+    script(src="scripts/script.js")
